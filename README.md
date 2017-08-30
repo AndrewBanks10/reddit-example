@@ -15,25 +15,29 @@ This development environment contains both the causality-redux and the react-red
 
 ## Installation
 
-1. `git clone ????` or download zip.
+1. `git clone https://github.com/AndrewBanks10/reddit-example` or download zip.
 2. Go to your command window at the root of causality-redux-react-template and type npm install
 3. From the same command window type npm run build:all
-4. Open the folder ???? in Visual Studio Code
-5. Make sure you have [vscode-chrome-debug](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) and [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension installed
+4. Open the folder reddit-example-master, or whatever you named it, in Visual Studio Code
+5. Make sure you have [vscode-chrome-debug](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) and the [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extensions installed
 
 ## Debugging
+
 * Select the debug button to the left in vscode and select "Debug" from the drop down. Then push the green arrow button next to the dropdown.
 
 ## Selecting between the causality-redux solution and the react-redux solution.
 
 Open the file UseRedux.js and set useRedux to true to use the redux solution and false to use the causality-redux solution.
 
-
 ## License
 
 MIT
 
-## Vscode/Webpack causality-redux development environment.
+## React-causality-redux with vscode is perhaps the best environment for developing with react. 
+
+Download this template and start coding and debugging with causality-redux with react immediately.
+
+A complete react-causality-redux es6 jsx boilerplate project for Visual Studio Code based on skolmer [react-hot-boilerplate-vscode](https://github.com/skolmer/react-hot-boilerplate-vscode). Also, some of information below is provided by [skolmer](https://github.com/skolmer/react-hot-boilerplate-vscode).
 
 [Github causality-redux react vscode hot loading and debug template](https://github.com/AndrewBanks10/react-causality-redux-vscode-template)
 
