@@ -35,7 +35,7 @@ MIT
 
 ## React-causality-redux with vscode is perhaps the best environment for developing with react. 
 
-Download this template and start coding and debugging with causality-redux with react immediately.
+Download this template and start coding and debugging with causality-redux and react immediately.
 
 A complete react-causality-redux es6 jsx boilerplate project for Visual Studio Code based on skolmer [react-hot-boilerplate-vscode](https://github.com/skolmer/react-hot-boilerplate-vscode). Also, some of information below is provided by [skolmer](https://github.com/skolmer/react-hot-boilerplate-vscode).
 
