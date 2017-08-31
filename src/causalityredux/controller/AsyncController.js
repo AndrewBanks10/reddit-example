@@ -1,7 +1,7 @@
 import CausalityRedux from 'causality-redux';
+import { establishControllerConnections } from 'react-causality-redux';
 import fetchPosts from '../model/AsyncModel';
 import AsyncApp from '../view/containers/AsyncApp';
-import 'react-causality-redux';
 
 //
 // Redux partition definition. This is the declarative part of the controller
@@ -54,7 +54,7 @@ const asyncPartition = {
 //
 // Add the partition definition to CausalityRedux.
 //
-const { partitionState, setState, uiComponent } = CausalityRedux.establishControllerConnections({
+const { partitionState, setState, uiComponent } = establishControllerConnections({
     module, // module is needed to support hot reloading.
     partition: asyncPartition, // Partition definition above
     storeKeys: ['posts', 'selectedSubreddit', 'isFetching', 'lastUpdated'],
